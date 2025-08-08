@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: todo
+  description: A task management application designed to help users organize and prioritize their daily tasks efficiently.
+  annotations:
+    github.com/project-slug: Musquan/todo
+    jira/project-key: SCRUM
+    jira/label: backstage-component:todo
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
